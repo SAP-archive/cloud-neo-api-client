@@ -8,7 +8,7 @@ List of currently supported platform APIs:
 ## Prerequisities and Dependencies
 
 - Java 8
-- SAP Rest API Client
+- [SAP Rest API Client](https://github.com/SAP/cloud-rest-api-client)
 - [Apache HTTP Client](https://hc.apache.org/httpcomponents-client-ga/index.html)
 - [Jackson Faster XML](https://github.com/FasterXML/jackson)
 - [Apache commons lang](https://commons.apache.org/proper/commons-lang/)  
