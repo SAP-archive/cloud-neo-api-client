@@ -61,8 +61,7 @@ public class AuthorizationManagementRestApiClient extends RestApiClient implemen
     /**
      * Creates a {@link AuthorizationManagementRestApiClient} instance.
      * 
-     * @param config
-     *            the configuration used to construct the {@link NeoApiClient}
+     * @param config {@link RestApiClientConfig} client configuration.
      */
     public AuthorizationManagementRestApiClient(RestApiClientConfig config) {
         super(config);
@@ -71,8 +70,7 @@ public class AuthorizationManagementRestApiClient extends RestApiClient implemen
     /**
      * A constructor which allows providing a custom {@link HttpClientProvider}.
      * 
-     * @param config
-     *            the configuration used to construct the {@link NeoApiClient}.
+     * @param config {@link RestApiClientConfig} client configuration.
      * @param httpClientProvider
      *            the HTTP client provider to be used to create HTTP clients.
      */

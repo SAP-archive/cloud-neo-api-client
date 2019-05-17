@@ -12,6 +12,8 @@ public class PlatformClientsOAuthAuthenticationBuilder extends
 
     /**
      * Attaches a subaccount to the builder.
+     * @param subaccount Subaccount.
+     * @return Builder instance.
      */
     public PlatformClientsOAuthAuthenticationBuilder subaccount(final String subaccount) {
         this.subaccount = subaccount;
@@ -21,6 +23,7 @@ public class PlatformClientsOAuthAuthenticationBuilder extends
     /**
      * Builds a {@link PlatformClientsOAuthAuthentication} with the provided
      * region alias, subaccount, client ID and client secret.
+     * @return Platform client OAuth authentication configuration instance.
      */
     @Override
     public PlatformClientsOAuthAuthentication build() {
@@ -28,7 +31,7 @@ public class PlatformClientsOAuthAuthenticationBuilder extends
     }
 
     /**
-     * Returns an instance of {@link PlatformClientsOAuthAuthenticationBuilder}.
+     * @return Returns an instance of {@link PlatformClientsOAuthAuthenticationBuilder}.
      */
     public static PlatformClientsOAuthAuthenticationBuilder getBuilder() {
         return new PlatformClientsOAuthAuthenticationBuilder();

@@ -388,6 +388,6 @@ public interface DestinationConfigurationService {
      *             - if the destination is not found.
      */
     void deleteDestinationOnSubscriptionLevel(String consumerSubaccountId, String providerSubaccountId,
-            String applicatioNname, String destinationName);
+            String applicationName, String destinationName);
 
 }

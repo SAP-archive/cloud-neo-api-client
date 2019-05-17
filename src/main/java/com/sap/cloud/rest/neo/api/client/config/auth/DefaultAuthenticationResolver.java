@@ -16,12 +16,11 @@ public class DefaultAuthenticationResolver implements AuthenticationResolver {
 
     /**
      * Returns the {@link Authentication} for the first match of the pattern
-     * provided in the {@link Map<String, Authentication>} and the specified
+     * provided in the Map&lt;String, Authentication&gt; and the specified
      * hostname.
      * 
-     * @param hostname
-     *            - the hostname to get the {@link Authentication} for.
-     * @return - the {@link Authentication} for the specified hostname or null
+     * @param hostname The hostname to get the {@link Authentication} for.
+     * @return The {@link Authentication} for the specified hostname or null
      *         if no {@link Authentication} matches the specified hostname.
      */
     @Override
