@@ -3,7 +3,7 @@
 
     <groupId>com.sap.cloud.client</groupId>
     <artifactId>neo-api-client</artifactId>
-    <version>1.1.6-SNAPSHOT</version>
+    <version>1.1.6</version>
     <packaging>jar</packaging>
     <name>SAP Cloud Platform Neo API Client</name>
     <description>A Java client for SAP Cloud Platform Neo Platform APIs.</description>
@@ -59,7 +59,7 @@
       <connection>scm:git:git://github.com/SAP/cloud-neo-api-client.git</connection>
       <developerConnection>scm:git:git@github.com/SAP/cloud-neo-api-client.git</developerConnection>
       <url>https://github.com/SAP/cloud-neo-api-client</url>
-      <tag>HEAD</tag>
+      <tag>neo-api-client-1.1.6</tag>
     </scm>
   
     <distributionManagement>
